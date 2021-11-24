@@ -7,7 +7,7 @@ spec:
   - port: 31001
     nodePort: 31002
     targetPost: nodejs-port
-    protocal: TCP
+    protocol: TCP
   selector:
     app: java-docker-microservice
   type: NodePort
