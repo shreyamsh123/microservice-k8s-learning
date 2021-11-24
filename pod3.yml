@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod3
+spec:
+  containers:
+  - name: java-docker
+    image: shreyamshsm/java-docker
+    ports:
+    - containerPort: 8000
