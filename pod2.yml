@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod2
+sepc:
+  containers:
+  - name: webserver
+    image: nginx:latest
+    ports:
+    - containerPost: 80  
+  - name: webwatcher
+    image: afakharany/watcher:latest
